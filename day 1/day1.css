@@ -1,0 +1,21 @@
+/**Css is responsive by default.Its always us who tampers with the responsiveness**/
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.parent{
+  background-color: #23424a;
+  padding: 50px;
+ /**Don't use fixed width, use percentages instead**/
+  width: 80%;
+  margin: 0 auto;
+}
+.child{
+  background-color: #38cfd9;
+ /**Don't use height, use paddings instead
+ child widths or heights are always relative to that of their parents**/
+  /* height: 250px; */
+  padding-bottom: 5em;
+}
